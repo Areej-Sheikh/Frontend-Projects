@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #faf6ef;
+  font-family: Helvetica;
+}
+
+nav {
+  width: 100%;
+  padding: 20px 5px;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid black;
+  z-index: 10000;
+  background-color: #faf6ef;
+}
+
+nav > img {
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+nav > span {
+  position: absolute;
+  right: 0;
+}
+nav i {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.headerlogo {
+  padding: 0 40px;
+  width: 100%;
+  margin-top: 6%;
+  margin-bottom: 1%;
+}
+
+.big-links {
+  margin: 1% auto;
+  width: 95%;
+  font-size: 120px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.big-links > a {
+  text-decoration: none;
+  color: black;
+}
+
+.big-links > a:hover {
+  text-decoration: underline;
+  color: rgb(43, 98, 226);
+}
+
+.bigdot {
+  font-size: 150px;
+  line-height: 120px;
+}
+.video-slider1 {
+  background-color: #ff39a4;
+  font-size: 40px;
+  font-weight: 500;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.video-slider1:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.supervideo1 {
+  width: 100%;
+  margin-top: -4px;
+  border-bottom: 1px solid black;
+}
+
+.videocaption1 {
+  border-bottom: 1px solid black;
+  padding: 10px;
+  font-size: 22px;
+}
+
+.videocaption2 {
+  font-size: 70px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+.learn-more {
+  padding: 10px;
+  font-size: 70px;
+  color: black;
+  margin-bottom: 100px;
+  display: block;
+}
+
+.learn-more:hover {
+  color: rgb(43, 98, 226);
+}
+
+.book-now {
+  font-weight: 400;
+  padding-top: 30px;
+  font-size: 80px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.table-div {
+  position: relative;
+}
+
+.table-div > a {
+  text-decoration: none;
+  padding-bottom: 5px;
+  border-bottom: 2px solid black;
+  color: black;
+  position: absolute;
+  right: 0;
+  top: 70%;
+  font-size: 20px;
+}
+
+.table-div > a:hover {
+  color: rgb(43, 98, 226);
+  border-color: rgb(43, 98, 226);
+}
+
+.table-structure {
+  list-style-type: none;
+}
+
+.table-structure > li {
+  position: relative;
+  font-size: 20px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.table-structure > li:last-child {
+  border-bottom: none;
+  margin-bottom: 100px;
+}
+
+.table-structure .duration {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.table-structure .price {
+  position: absolute;
+  right: 10px;
+}
+
+.box-container1,
+.box-container2 {
+  width: 100%;
+  height: 90%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.left-box1 {
+  width: 50%;
+  height: 100%;
+  border-right: 1px solid black;
+  padding: 10px;
+}
+
+.right-box1 {
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+
+.right-box1 > div,
+.left-box1 > div {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  padding: 50px;
+  position: relative;
+}
+
+.left-box1 > div > a,
+.right-box1 > div > a {
+  font-size: 130px;
+  color: white;
+}
+
+.left-box1 > div > span,
+.right-box1 > div > span {
+  font-size: 150px;
+  color: white;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+}
+
+.advt-slider1 {
+  border-bottom: 1px solid black;
+  font-size: 100px;
+}
+
+.advt-slider1 > img {
+  height: 100px;
+  transform: translateY(15px);
+}
+
+.advt-slider1 > span {
+  font-size: 100px;
+  font-weight: 600;
+}
+
+.card-heading {
+  margin-top: 100px;
+  border-top: 1px solid black;
+  padding: 10px;
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.box-container2 {
+  width: 100%;
+  height: 50%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.card-line {
+  position: absolute;
+  width: 100%;
+  bottom: 10%;
+}
+
+.left-box2,
+.middle-box2,
+.right-box2 {
+  width: 33%;
+  height: 100%;
+  padding: 50px;
+}
+
+.middle-box2 {
+  position: absolute;
+  left: 33%;
+  top: 0;
+  border-left: 1px solid;
+}
+
+.right-box2 {
+  position: absolute;
+  left: 66%;
+  top: 0;
+  border-left: 1px solid;
+}
+
+.card {
+  width: 90%;
+  height: 90%;
+  background-image: url(card1.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.footer-list {
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  background-color: #ff39a4;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.footer-list > h1 {
+  font-size: 100px;
+}
+
+.footer-list > p {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: black;
+}
+.footer-list > p > a {
+  margin-right: 20px;
+}
+
+.footer-list > p > a:last-child:hover {
+  color: white;
+}
+
+.box-container3 {
+  width: 100%;
+  height: 45%;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  position: relative;
+}
+
+.left-box3,
+.middle-box3,
+.right-box3 {
+  width: 33%;
+  height: 100%;
+  padding: 20px;
+}
+
+.left-box3 > img {
+  width: 20%;
+}
+
+.middle-box3 {
+  position: absolute;
+  left: 33%;
+  top: 0;
+}
+
+.middle-box3 > ul {
+  list-style-type: none;
+  font-size: 18px;
+}
+
+.middle-box3 > ul > li {
+  margin-bottom: 10px;
+}
+
+.right-box3 {
+  position: absolute;
+  left: 66%;
+  top: 0;
+}
+
+.right-box3 > h1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.right-box3 > a {
+  position: absolute;
+  bottom: 20%;
+  font-size: 14px;
+}
+
+footer {
+  padding: 20px;
+}
